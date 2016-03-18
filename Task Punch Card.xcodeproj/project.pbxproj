@@ -15,7 +15,18 @@
 		1C04A5BB1C7BBDA90086D4E5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04A5BA1C7BBDA90086D4E5 /* Task.swift */; };
 		1C04A5BD1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04A5BC1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift */; };
 		1C04A5BF1C7CFABB0086D4E5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04A5BE1C7CFABB0086D4E5 /* GradientView.swift */; };
+		1C5284A91C9C83150085B815 /* Task_Punch_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5284A81C9C83150085B815 /* Task_Punch_CardTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C5284AB1C9C83150085B815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C04A59D1C7BB9460086D4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C04A5A41C7BB9460086D4E5;
+			remoteInfo = "Task Punch Card";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C04A5A51C7BB9460086D4E5 /* Task Punch Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Punch Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +39,20 @@
 		1C04A5BA1C7BBDA90086D4E5 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		1C04A5BC1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Convenience.swift"; sourceTree = "<group>"; };
 		1C04A5BE1C7CFABB0086D4E5 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		1C5284A61C9C83150085B815 /* Task Punch CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task Punch CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5284A81C9C83150085B815 /* Task_Punch_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Punch_CardTests.swift; sourceTree = "<group>"; };
+		1C5284AA1C9C83150085B815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1C04A5A21C7BB9460086D4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5284A31C9C83150085B815 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				1C04A5A71C7BB9460086D4E5 /* Task Punch Card */,
+				1C5284A71C9C83150085B815 /* Task Punch CardTests */,
 				1C04A5A61C7BB9460086D4E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				1C04A5A51C7BB9460086D4E5 /* Task Punch Card.app */,
+				1C5284A61C9C83150085B815 /* Task Punch CardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +94,15 @@
 				1C04A5BE1C7CFABB0086D4E5 /* GradientView.swift */,
 			);
 			path = "Task Punch Card";
+			sourceTree = "<group>";
+		};
+		1C5284A71C9C83150085B815 /* Task Punch CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C5284A81C9C83150085B815 /* Task_Punch_CardTests.swift */,
+				1C5284AA1C9C83150085B815 /* Info.plist */,
+			);
+			path = "Task Punch CardTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +125,24 @@
 			productReference = 1C04A5A51C7BB9460086D4E5 /* Task Punch Card.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1C5284A51C9C83150085B815 /* Task Punch CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5284AF1C9C83150085B815 /* Build configuration list for PBXNativeTarget "Task Punch CardTests" */;
+			buildPhases = (
+				1C5284A21C9C83150085B815 /* Sources */,
+				1C5284A31C9C83150085B815 /* Frameworks */,
+				1C5284A41C9C83150085B815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C5284AC1C9C83150085B815 /* PBXTargetDependency */,
+			);
+			name = "Task Punch CardTests";
+			productName = "Task Punch CardTests";
+			productReference = 1C5284A61C9C83150085B815 /* Task Punch CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +156,10 @@
 					1C04A5A41C7BB9460086D4E5 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = GWYGZAV443;
+					};
+					1C5284A51C9C83150085B815 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1C04A5A41C7BB9460086D4E5;
 					};
 				};
 			};
@@ -123,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				1C04A5A41C7BB9460086D4E5 /* Task Punch Card */,
+				1C5284A51C9C83150085B815 /* Task Punch CardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +190,13 @@
 				1C04A5B31C7BB9460086D4E5 /* LaunchScreen.storyboard in Resources */,
 				1C04A5B01C7BB9460086D4E5 /* Assets.xcassets in Resources */,
 				1C04A5AE1C7BB9460086D4E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5284A41C9C83150085B815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +215,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1C5284A21C9C83150085B815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5284A91C9C83150085B815 /* Task_Punch_CardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C5284AC1C9C83150085B815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C04A5A41C7BB9460086D4E5 /* Task Punch Card */;
+			targetProxy = 1C5284AB1C9C83150085B815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1C04A5AC1C7BB9460086D4E5 /* Main.storyboard */ = {
@@ -284,6 +362,30 @@
 			};
 			name = Release;
 		};
+		1C5284AD1C9C83150085B815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Task Punch CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dangrayson.Task-Punch-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Punch Card.app/Task Punch Card";
+			};
+			name = Debug;
+		};
+		1C5284AE1C9C83150085B815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Task Punch CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dangrayson.Task-Punch-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Punch Card.app/Task Punch Card";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -301,6 +403,15 @@
 			buildConfigurations = (
 				1C04A5B81C7BB9460086D4E5 /* Debug */,
 				1C04A5B91C7BB9460086D4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5284AF1C9C83150085B815 /* Build configuration list for PBXNativeTarget "Task Punch CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5284AD1C9C83150085B815 /* Debug */,
+				1C5284AE1C9C83150085B815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
