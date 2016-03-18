@@ -38,7 +38,7 @@
                                                     </label>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eOY-2r-7KD">
                                                         <rect key="frame" x="0.0" y="38" width="560" height="164"/>
-                                                        <color key="backgroundColor" red="1" green="0.90573561810000003" blue="0.53566642220000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.90588235289999997" blue="0.60094852119999997" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <connections>
                                                             <outlet property="dataSource" destination="BYZ-38-t0r" id="0Yw-dO-GoG"/>
@@ -110,7 +110,7 @@
                                             </stackView>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DNA-sG-3SK">
                                                 <rect key="frame" x="0.0" y="42" width="560" height="266"/>
-                                                <color key="backgroundColor" red="1" green="0.90573561805607705" blue="0.53566642217600657" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="1" green="0.90588235294117647" blue="0.60094852118699826" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="kqK-Js-eMe"/>
                                                 </connections>

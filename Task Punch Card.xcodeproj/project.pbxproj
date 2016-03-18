@@ -16,6 +16,8 @@
 		1C04A5BD1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04A5BC1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift */; };
 		1C04A5BF1C7CFABB0086D4E5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04A5BE1C7CFABB0086D4E5 /* GradientView.swift */; };
 		1C5284A91C9C83150085B815 /* Task_Punch_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5284A81C9C83150085B815 /* Task_Punch_CardTests.swift */; };
+		1C5284B11C9C90E80085B815 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5284B01C9C90E80085B815 /* TaskService.swift */; };
+		1C5284B31C9C95F00085B815 /* String+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5284B21C9C95F00085B815 /* String+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		1C5284A61C9C83150085B815 /* Task Punch CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task Punch CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5284A81C9C83150085B815 /* Task_Punch_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Punch_CardTests.swift; sourceTree = "<group>"; };
 		1C5284AA1C9C83150085B815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5284B01C9C90E80085B815 /* TaskService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		1C5284B21C9C95F00085B815 /* String+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				1C04A5BA1C7BBDA90086D4E5 /* Task.swift */,
 				1C04A5BC1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift */,
 				1C04A5BE1C7CFABB0086D4E5 /* GradientView.swift */,
+				1C5284B01C9C90E80085B815 /* TaskService.swift */,
+				1C5284B21C9C95F00085B815 /* String+Convenience.swift */,
 			);
 			path = "Task Punch Card";
 			sourceTree = "<group>";
@@ -209,8 +215,10 @@
 			files = (
 				1C04A5AB1C7BB9460086D4E5 /* ViewController.swift in Sources */,
 				1C04A5BD1C7CF2A50086D4E5 /* CAGradientLayer+Convenience.swift in Sources */,
+				1C5284B11C9C90E80085B815 /* TaskService.swift in Sources */,
 				1C04A5BF1C7CFABB0086D4E5 /* GradientView.swift in Sources */,
 				1C04A5BB1C7BBDA90086D4E5 /* Task.swift in Sources */,
+				1C5284B31C9C95F00085B815 /* String+Convenience.swift in Sources */,
 				1C04A5A91C7BB9460086D4E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
